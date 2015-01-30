@@ -7,7 +7,8 @@
 	<script type="text/javascript" src="./js/iat.js"></script>
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=C1e4e2b050755a542005cdb306e22788"></script>
 	<script src="http://map.qq.com/api/js?v=2.exp&key=d84d6d83e0e51e481e50454ccbe8986b"></script>
-
+    <script type="text/javascript" src="./js/jsized.snow.min.js"></script>
+ 
 </head>
 
 
@@ -115,7 +116,8 @@
 		</ul>
 		<script>
 			$(document).ready(function() {initMenu();});
-		</script>
+			createSnow('./images', 60);
+    	</script>
 	</div>
 </div>
 </body>
