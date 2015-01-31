@@ -141,7 +141,6 @@ $(document).ready(function()
 		});
 	});
 
-
 	//QRcode_offline
 	$("#QRcode_offline").click(function()
 	{
