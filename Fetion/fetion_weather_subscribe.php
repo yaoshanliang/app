@@ -39,7 +39,7 @@ $city_code = isset($_GET['city_code'])?$_GET['city_code']:'101010100';
 			},
 			error:function()
 			{
-				$("#show_map_area").html("Sorry,error!");
+				$("#show_area").html("Sorry,error!");
 			}
 		});
 
