@@ -78,9 +78,9 @@
 						c[d].draw()
 					}
 				}, 40);
-			k(window, "scroll", function() {
-				for (var e = c.length - 1; e >= 0; e--) c[e].draw()
-			})
+			//k(window, "scroll", function() {
+			//	for (var e = c.length - 1; e >= 0; e--) c[e].draw()
+			//})
 		} else g(function() {
 			createSnow(a, b)
 		})
