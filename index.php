@@ -116,7 +116,18 @@
 		<script>
 			$(document).ready(function() {initMenu();});
 			createSnow('./images/', 60);
-    	</script>
+		</script>
+		<!--统计代码开始-->
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?a8f517fee81bd1ee9a017d6f0cbfe789";
+				var s = document.getElementsByTagName("script")[0]; 
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+		<!--统计代码结束-->
 	</div>
 </div>
 </body>
