@@ -38,7 +38,7 @@
 <div class="wrap">
 	<div id = "show_area">
 		<script type="text/javascript">
-		
+		document.body.style.overflow='hidden';
 	  	pano_container=document.getElementById('show_area');	//街景容器
 		pano = new qq.maps.Panorama(pano_container, {
 			pano: '10121006121117104824700',	//场景ID
